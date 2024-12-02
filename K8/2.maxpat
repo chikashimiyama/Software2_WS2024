@@ -196,7 +196,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 77.0, 212.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "readpict dog dog.jpg, drawpict dog 0 0"
 				}
 
@@ -288,14 +287,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "dog.jpg",
-				"bootpath" : "~/Works/Event/2024/Software2_WS2024/K8",
-				"patcherrelativepath" : ".",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 

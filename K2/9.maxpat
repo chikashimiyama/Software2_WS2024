@@ -40,6 +40,73 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-31",
+					"margins" : [ 1.0, 0.0, 1.0, 0.0 ],
+					"maxclass" : "plot~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"numpoints" : 441,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 606.0, 245.0, 509.0, 118.0 ],
+					"subplots" : [ 						{
+							"color" : [ 0.400000005960464, 0.400000005960464, 0.75, 1.0 ],
+							"thickness" : 1.200000047683716,
+							"point_style" : "none",
+							"line_style" : "lines",
+							"number_style" : "none",
+							"filter" : "none",
+							"domain_start" : 0.0,
+							"domain_end" : 1.0,
+							"domain_style" : "linear",
+							"domain_markers" : [ 0.0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1.0 ],
+							"domain_labels" : [  ],
+							"range_start" : -1.0,
+							"range_end" : 1.0,
+							"range_style" : "linear",
+							"range_markers" : [ -0.5, 0.0, 0.5 ],
+							"range_labels" : [  ],
+							"origin_x" : 0.0,
+							"origin_y" : 0.0
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 491.0, 77.0, 150.0, 20.0 ],
+					"text" : "depth"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 364.0, 38.0, 150.0, 20.0 ],
+					"text" : "freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 216.0, 143.0, 150.0, 20.0 ],
+					"text" : "d factor"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -119,7 +186,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 204.0, 223.0, 58.0, 22.0 ],
+					"patching_rect" : [ 212.0, 231.0, 58.0, 22.0 ],
 					"text" : "clip~ 0 1"
 				}
 
@@ -157,7 +224,7 @@
 					"numoutlets" : 1,
 					"numpoints" : 441,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.0, 314.0, 509.0, 118.0 ],
+					"patching_rect" : [ 557.0, 398.0, 509.0, 118.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.400000005960464, 0.400000005960464, 0.75, 1.0 ],
 							"thickness" : 1.200000047683716,
@@ -191,7 +258,7 @@
 					"numoutlets" : 1,
 					"numpoints" : 441,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 175.0, 509.0, 118.0 ],
+					"patching_rect" : [ 614.0, 77.0, 509.0, 118.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.400000005960464, 0.400000005960464, 0.75, 1.0 ],
 							"thickness" : 1.200000047683716,
@@ -414,7 +481,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"order" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
